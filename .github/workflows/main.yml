@@ -12,7 +12,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.6'  # 设置 Python 版本
+        python-version: '3.6.5'  # 设置 Python 版本
     - name: Install dependencies
       run: |
         pip install mkdocs  # 安装 mkdocs
